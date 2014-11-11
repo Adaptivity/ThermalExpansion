@@ -215,7 +215,7 @@ item.thermalexpansion.augment.dynamoOutput2.name=극저온 자속 증폭기
 ##item.thermalexpansion.augment.dynamoThrottle.name=Excitation Field Limiter
 
 item.thermalexpansion.augment.generalAutoTransfer.name=내장 서보 매커니즘
-item.thermalexpansion.augment.generalReconfigSides.name=내장 모듈러 프레임 워크
+item.thermalexpansion.augment.generalReconfigSides.name=내장 커스텀 입출력 프레임워크
 item.thermalexpansion.augment.generalRedstoneControl.name=내장 레드스톤 회로
 
 item.thermalexpansion.augment.machineSecondary0.name=보조 거름망
@@ -227,7 +227,7 @@ item.thermalexpansion.augment.machineSpeed2.name=시공간 자속 통합
 
 item.thermalexpansion.capacitor.creative.name=크리에이티브 축전지
 item.thermalexpansion.capacitor.potato.name=튜보러스 축전지
-item.thermalexpansion.capacitor.basic.name=리드스톤 축전지
+item.thermalexpansion.capacitor.basic.name=납 축전지
 item.thermalexpansion.capacitor.hardened.name=경화 축전지
 item.thermalexpansion.capacitor.reinforced.name=레드스톤 축전지
 item.thermalexpansion.capacitor.resonant.name=공진 플럭스 축전지
@@ -255,7 +255,7 @@ item.thermalexpansion.satchel.hardened.name=경화 가방
 item.thermalexpansion.satchel.reinforced.name=강화 가방
 item.thermalexpansion.satchel.resonant.name=공진 가방
 
-item.thermalexpansion.tool.invarBattleWrench.name=인바 전투 렌치
+item.thermalexpansion.tool.invarBattleWrench.name=인바 전투용 렌치
 item.thermalexpansion.tool.invarSword.name=인바 검
 item.thermalexpansion.tool.invarShovel.name=인바 삽
 item.thermalexpansion.tool.invarPickaxe.name=인바 곡괭이
@@ -296,7 +296,7 @@ tab.thermalexpansion.dynamo.0=발전량은 에너지 수요량에 따라 변합�
 tab.thermalexpansion.dynamo.steam.0=증기를 이용해서 발전합니다.
 tab.thermalexpansion.dynamo.steam.1=고체연료와 물을 이용해서 증기를 생산합니다.
 tab.thermalexpansion.dynamo.magmatic.0=뜨거운 액체를 이용해서 발전합니다.
-tab.thermalexpansion.dynamo.compression.0=액체연료를 이용해서 발전합니다.
+tab.thermalexpansion.dynamo.compression.0=액체 연료를 이용해서 발전합니다.
 tab.thermalexpansion.dynamo.reactant.0=화학 반응을 이용해서 발전합니다.
 tab.thermalexpansion.dynamo.reactant.1=고체촉매와 액체연료가 필요합니다.
 tab.thermalexpansion.dynamo.enervation.0=천연자원 혹은 저장소에서 에너지를 추출합니다.
@@ -334,7 +334,7 @@ tab.thermalexpansion.machine.accumulator.2=익사하지 않아요.
 tab.thermalexpansion.machine.assembler.0=도식도에 저장된 조합법으로 아이템을 만듭니다.
 tab.thermalexpansion.machine.assembler.1=1회 조합에 20 RF가 소모됩니다.
 tab.thermalexpansion.machine.assembler.2=아뇨. 그건 못 만들어요.
-tab.thermalexpansion.machine.charger.0=RF를호환하는 아이템에 에너지를 충전합니다.
+tab.thermalexpansion.machine.charger.0=RF를 호환하는 아이템에 에너지를 충전합니다.
 tab.thermalexpansion.machine.charger.1=충전속도는 아이템에 따라 달라집니다.
 tab.thermalexpansion.machine.charger.2=윙윙거리는 소리를 잘들어보세요.
 
@@ -356,7 +356,7 @@ tile.thermalexpansion.cache.resonant.name=공진 캐시
 
 tile.thermalexpansion.cell=에너지 셀
 tile.thermalexpansion.cell.creative.name=크리에이티브 에너지 셀
-tile.thermalexpansion.cell.basic.name=리드스톤 에너지 셀
+tile.thermalexpansion.cell.basic.name=납 에너지 셀
 tile.thermalexpansion.cell.hardened.name=경화 에너지 셀
 tile.thermalexpansion.cell.reinforced.name=레드스톤 에너지 셀
 tile.thermalexpansion.cell.resonant.name=공진 에너지 셀
@@ -376,15 +376,15 @@ tile.thermalexpansion.dynamo.enervation.name=에너제이션 다이나모
 
 tile.thermalexpansion.ender.tesseract.name=테서락트
 
-tile.thermalexpansion.frame.machineBasic.name=머신 프레임 (기본)
-tile.thermalexpansion.frame.machineHardened.name=머신 프레임 (경화)
-tile.thermalexpansion.frame.machineReinforced.name=머신 프레임 (강화)
-tile.thermalexpansion.frame.machineResonant.name=머신 프레임 (공진)
-tile.thermalexpansion.frame.cellBasic.name=리드스톤 에너지 셀 프레임
-tile.thermalexpansion.frame.cellReinforcedEmpty.name=레드스톤 에너지 셀 프레임 (빔)
-tile.thermalexpansion.frame.cellReinforcedFull.name=레드스톤 에너지 셀 프레임 (가득참)
-tile.thermalexpansion.frame.tesseractEmpty.name=테서락트 프레임 (빔)
-tile.thermalexpansion.frame.tesseractFull.name=테서락트 프레임 (가득참)
+tile.thermalexpansion.frame.machineBasic.name=기계 틀 (기본)
+tile.thermalexpansion.frame.machineHardened.name=기계 틀 (경화)
+tile.thermalexpansion.frame.machineReinforced.name=기계 틀 (강화)
+tile.thermalexpansion.frame.machineResonant.name=기계 틀 (공진)
+tile.thermalexpansion.frame.cellBasic.name=납 에너지 셀 틀
+tile.thermalexpansion.frame.cellReinforcedEmpty.name=레드스톤 에너지 셀 틀 (빔)
+tile.thermalexpansion.frame.cellReinforcedFull.name=레드스톤 에너지 셀 틀 (가득참)
+tile.thermalexpansion.frame.tesseractEmpty.name=테서락트 틀 (빔)
+tile.thermalexpansion.frame.tesseractFull.name=테서락트 틀 (가득참)
 tile.thermalexpansion.frame.illuminator.name=조명기 틀
 
 tile.thermalexpansion.glass.name=강화 유리
@@ -403,7 +403,7 @@ tile.thermalexpansion.machine.precipitator.name=동력 냉각기
 tile.thermalexpansion.machine.extruder.name=화성암 생성기
 tile.thermalexpansion.machine.accumulator.name=물 축적기
 tile.thermalexpansion.machine.assembler.name=순환 조합기
-tile.thermalexpansion.machine.charger.name=주입기
+tile.thermalexpansion.machine.charger.name=에너지 주입기
 
 tile.thermalexpansion.rockwool.black.name=검은색 석면
 tile.thermalexpansion.rockwool.red.name=빨간색 석면
